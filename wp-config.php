@@ -23,10 +23,10 @@
 define('DB_NAME', 'santelmopizza');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'santelmopizza');
 
 /** MySQL database password */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'password');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -63,7 +63,7 @@ define('NONCE_SALT',       'EVCJ!Y#ZxC!@Y(J1OMMnNDwmXDJw|X{cV# ,Yan?AF5E;rwvGQop
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix  = 'wpopp_';
+$table_prefix  = 'wp_';
 
 /**
  * For developers: WordPress debugging mode.
